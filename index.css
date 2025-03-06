@@ -4,21 +4,61 @@
 
 body{
     font-family: 'Roboto';
+    background-color: #1F2937;
+}
+
+#bgBlack{
+    background-color: #1F2937;
+}
+header{
+    font-size: 24px;
+    display: flex;
+    color: #f9faf8;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    border: 0;
 }
 
 p,ul{
     font-size: 18px;
-
+    color: #e5e7eb;
 }
-header{
-    font-size: 24px;
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+#fSec{
+    display: flex;
+    flex-direction: column;
+    padding-left: 166px;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
     font-size: 48px;
     font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+    margin-right: auto;
+}
+
+p{
+    margin-top: 5px;
+    width: 450px;
+    margin-right: auto;
 }
 
 button{
     background: #3882F6;
+    border-radius: 4px;
+    padding: 5px 25px;
+    border: #3882F6;
+    color: white;
+    margin-right: auto;
 }
+
+
