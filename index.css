@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family: 'Roboto';
+}
+
+p,ul{
+    font-size: 18px;
+
+}
+header{
+    font-size: 24px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button{
+    background: #3882F6;
+}
