@@ -1,15 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 body{
     font-family: 'Roboto';
     margin: 0 ;
     padding: 0;
-    color: white;
 }
-
-
 
 header{
     font-size: 24px;
@@ -20,22 +16,20 @@ header{
     align-items: center;
     margin: 0;
     border: 0;
-    height: 50px;
-    padding: 20px;
 }
 
-#hero{
+.hero{
     display: flex;
     background-color: #1f2937;
     padding: 5% 14%;
 }
 
-#main{
-    padding-right: 30px;
-    width: 450px;
+.hero_text{
+    padding-right: 2%;
+    width: 44%;
 }
 
-p, ul{
+#hero_sub, ul{
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -64,7 +58,33 @@ button{
 }
 
 img{
-    padding-top: 20px;
+    padding-top: 2%;
     height: 300px;
     width: 500px;
+}
+
+main{
+    align-items: center;
+}
+
+h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.info .main_sub{
+    display: flex;
+    padding: 5% 14%;
+}
+
+.square{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    margin: 10px;
+
 }
