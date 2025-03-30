@@ -58,9 +58,10 @@ button{
 }
 
 img{
-    padding-top: 2%;
+    margin-top: 2%;
     height: 300px;
-    width: 500px;
+    width: 450px;
+    border-radius: 5px;
 }
 
 main{
@@ -101,4 +102,24 @@ h2{
     width: 140px;
     text-align: center;
     color: #1f2937;
+}
+
+.quote_container{
+    padding: 120px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote{
+    font-style:italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.author{
+    display: flex;
+    justify-content: end;
 }
